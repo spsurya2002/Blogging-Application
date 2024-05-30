@@ -1,0 +1,24 @@
+/* src/components/PostBlogForm.css */
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.blog-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card h3 {
+    margin-top: 0;
+}
+
+.blog-card p {
+    margin-bottom: 0;
+}
