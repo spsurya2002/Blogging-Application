@@ -1,5 +1,5 @@
 # gitignore generator # 
-
+.gitignore
 # Logs
 logs
 *.log
